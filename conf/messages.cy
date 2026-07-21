@@ -29,7 +29,7 @@ hts.sign-in=Mewngofnodwch i’r cyfrif Cymorth i Gynilo
 
 hts.not-eligible.title.h1=Nid ydych yn gymwys ar gyfer cyfrif Cymorth i Gynilo
 hts.not-eligible.h=Os ydych o’r farn eich bod yn gymwys am gyfrif
-hts.not-eligible.p=Dysgwch beth i’w wneud os ydych wedi gwirio’r meini prawf cymhwystra ar gyfer cyfrif Cymorth i Gynilo ac yn <a class="govuk-link" href={0} rel="noreferrer noopener" target="_blank">parhau i fod o’r farn eich bod yn gymwys (yn agor tab newydd).</a>
+hts.not-eligible.p=Dysgwch beth i’w wneud os ydych wedi gwirio’r meini prawf cymhwystra ar gyfer cyfrif Cymorth i Gynilo ac yn <a class="govuk-link" href={0} rel="noreferrer noopener" target="_blank">parhau i fod o’r farn eich bod yn gymwys (yn agor tab newydd)</a>.
 
 hts.not-eligible.p4=Os yw eich sefyllfa’n newid, cewch geisio eto am gyfrif Cymorth i Gynilo.
 
@@ -586,7 +586,7 @@ hts.reminder-confirmation.frequency.both=1 a diwrnod 25
 hts.reminder-confirmation.title.p1-2=bob mis
 hts.reminder-confirmation.title.p1-3=Byddwn yn anfon eich nodynnau atgoffa at
 hts.reminder-confirmation.title.p1-4=Os hoffech i’ch nodynnau atgoffa fynd i rywle arall bydd angen i chi
-hts.reminder-confirmation.change-email.descriptive-link=newid eich cyfeiriad e-bost.
+hts.reminder-confirmation.change-email.descriptive-link=newid eich cyfeiriad e-bost
 hts.reminder-confirmation.saving-reminders.descriptive-link=nodynnau atgoffa ynghylch cynilion
 hts.reminder-confirmation.title.p1-5=Gallwch newid neu ganslo’ch e-byst atgoffa ar unrhyw adeg. Ewch i
 hts.reminder-confirmation.title.p1-6=yn hafan eich cyfrif Cymorth i Gynilo.

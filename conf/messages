@@ -31,7 +31,7 @@ hts.sign-in=Sign in to Help to Save account.
 # Not eligible
 hts.not-eligible.title.h1=You’re not eligible for a Help to Save account
 hts.not-eligible.h=If you think you’re eligible for an account
-hts.not-eligible.p=Find out what to do if you have checked the eligibility criteria for a Help to Save account and <a class="govuk-link" href={0} rel="noreferrer noopener" target="_blank">still think you’re eligible (opens in a new tab).</a>
+hts.not-eligible.p=Find out what to do if you have checked the eligibility criteria for a Help to Save account and <a class="govuk-link" href={0} rel="noreferrer noopener" target="_blank">still think you’re eligible (opens in a new tab)</a>.
 
 hts.not-eligible.p4=If your situation changes, you can apply for a Help to Save account again.
 
@@ -582,7 +582,7 @@ hts.reminder-confirmation.title.p1-1=We will send you reminders on the
 hts.reminder-confirmation.title.p1-2=day of each month
 hts.reminder-confirmation.title.p1-3=We will send your reminders to
 hts.reminder-confirmation.title.p1-4=If you want your reminders to go somewhere else you’ll need to
-hts.reminder-confirmation.change-email.descriptive-link=change your email address.
+hts.reminder-confirmation.change-email.descriptive-link=change your email address
 hts.reminder-confirmation.saving-reminders.descriptive-link=savings reminders
 hts.reminder-confirmation.frequency.1=1st
 hts.reminder-confirmation.frequency.25=25th
