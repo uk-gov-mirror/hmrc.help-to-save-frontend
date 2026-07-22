@@ -29,7 +29,7 @@
     Messages("hts.help.information.title.h1")
 }
 
-@layout(title = title + " " + Messages("hts.global.accountholder.title-suffix"), Some(appConfig.nsiManageAccountUrl)) {
+@layout(title, Some(appConfig.nsiManageAccountUrl)) {
     <h1 class="govuk-heading-l">@title</h1>
 
     <h2 class="govuk-heading-m">@messages("hts.help.information.h2")</h2>
