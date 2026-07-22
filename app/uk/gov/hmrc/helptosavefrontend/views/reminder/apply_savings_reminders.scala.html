@@ -70,7 +70,7 @@
             ),
             errorMessage = if(errorMessage.isDefined) {
               Some(ErrorMessage(
-                content = Text(messages("hts.select-email.select-an-option")),
+                content = Text(messages("hts.reminder-select.error.missing")),
                 visuallyHiddenText = Some(messages("hts.global.error.prefix"))
               ))
             } else None
