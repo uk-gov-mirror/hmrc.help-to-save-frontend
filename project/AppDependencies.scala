@@ -6,20 +6,20 @@ object AppDependencies {
   val playVersion = "play-30"
   val bootstrapBackendVersion = "10.7.0"
   val mockitoScalaVersion = "1.17.37"
-  val mongoVersion = "2.12.0"
+  val mongoVersion = "2.13.0"
 
   val compile: Seq[ModuleID] = Seq(
-    s"$hmrc.mongo"      %% s"hmrc-mongo-$playVersion"         % mongoVersion,
-    hmrc                %% s"bootstrap-frontend-$playVersion" % bootstrapBackendVersion,
-    "org.typelevel"     %% "cats-core"                        % "2.13.0",
-    hmrc                %% s"domain-$playVersion"                           % s"13.0.0",
-    hmrc                %% s"play-frontend-hmrc-$playVersion"               % "13.9.0"
+    s"$hmrc.mongo"  %% s"hmrc-mongo-$playVersion"         % mongoVersion,
+    hmrc            %% s"bootstrap-frontend-$playVersion" % bootstrapBackendVersion,
+    "org.typelevel" %% "cats-core"                        % "2.13.0",
+    hmrc            %% s"domain-$playVersion"             % s"13.0.0",
+    hmrc            %% s"play-frontend-hmrc-$playVersion" % "13.10.0"
   )
 
   def test(scope: String = "test"): Seq[ModuleID] = Seq(
-    hmrc                   %% "stub-data-generator"          % "1.6.0"                 % scope,
-    hmrc                   %% s"bootstrap-test-$playVersion" % bootstrapBackendVersion % scope,
-    "org.scalatestplus"    %% "scalacheck-1-17"              % "3.2.18.0"       % scope,
-    "com.codacy"           %% "scalaj-http"                  % "2.5.0"          % scope
+    hmrc                %% "stub-data-generator"          % "1.6.0"                 % scope,
+    hmrc                %% s"bootstrap-test-$playVersion" % bootstrapBackendVersion % scope,
+    "org.scalatestplus" %% "scalacheck-1-17"              % "3.2.18.0"              % scope,
+    "com.codacy"        %% "scalaj-http"                  % "2.5.0"                 % scope
   )
 }

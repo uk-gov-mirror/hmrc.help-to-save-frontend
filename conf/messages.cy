@@ -11,7 +11,6 @@ hts.global.breadcrumb.account.manage-email=Rheoli’ch cyfeiriad e-bost
 hts.global.hidden-icon-text.warning=Rhybudd
 hts.global.error.prefix=Gwall
 hts.global.title={0} {1} - {2} - GOV.UK
-hts.global.accountholder.title-suffix=- Hafan cyfrif Cymorth i Gynilo
 hts.global.title.section.email=- Rheoli’ch cyfeiriad e-bost
 hts.global.exit.to.gov.uk=Gadael a mynd i GOV.UK
 hts.global.link.back=Yn ôl
