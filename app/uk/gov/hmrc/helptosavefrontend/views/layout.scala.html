@@ -43,6 +43,14 @@
 
 @serviceName = @{messages("hts.global.title-suffix")}
 
+@serviceUrl = @{
+  if(request.path.contains("/account")){
+    Some(s"${appConfig.helpToSaveFrontendUrl}/account-home")
+  } else {
+    Some(s"${appConfig.helpToSaveFrontendUrl}/check-eligibility")
+  }
+}
+
 @head = {
   @if(enableSignOutLink && htsContext.isAuthorised) {
     @hmrcTimeoutDialogHelper(
@@ -95,6 +103,7 @@
   additionalHeadBlock = Some(head),
   beforeContentBlock = Some(beforeContentBlock),
   serviceName = Some(serviceName),
+  serviceUrl = serviceUrl,
   phaseBanner = None,
   additionalScriptsBlock = Some(scripts),
 )(content)
