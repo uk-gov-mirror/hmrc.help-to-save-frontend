@@ -565,7 +565,7 @@ hts.explained.p9 = I ddechrau cynilo, gwnewch gais am Gymorth i Gynilo.
 
 # Savings reminders
 hts.email-saving-remainders.title.h1=E-byst atgoffa ynghylch cynilion
-hts.email-saving-remainders.intro=Mae e-byst atgoffa yn eich helpu i gofio cynilo bob mis. Mae hyn yn eich helpu i ennill y bonws mwyaf posibl.
+hts.email-saving-remainders.intro=Byddwn yn defnyddio’r cyfeiriad e-bost hwn ar gyfer eich cyfrif Cymorth i Gynilo
 hts.email-saving-remainders.note=Ar hyn o bryd, nid ydych yn cael unrhyw nodynnau atgoffa.
 hts.email-saving-remainders-button=Trefnu nodynnau atgoffa
 hts.reminder-frequency.select=Dewiswch bryd yr hoffech gael nodynnau atgoffa
