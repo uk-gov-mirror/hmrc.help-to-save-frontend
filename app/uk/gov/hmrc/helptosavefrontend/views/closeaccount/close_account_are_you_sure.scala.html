@@ -33,11 +33,6 @@
 
 @beforeContentBlock = {
     @viewHelpers.govukBreadcrumbs(Breadcrumbs(
-        items = Seq(
-        BreadcrumbsItem(
-        content = Text(messages("hts.global.breadcrumb.account.home")),
-        href = Some(appConfig.nsiManageAccountUrl)
-        )),
         classes = "ga-track-event",
         attributes = Map(
         "data-ga-event-category" -> "link - click",

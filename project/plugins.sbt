@@ -12,6 +12,6 @@ addSbtPlugin("org.playframework" %% "sbt-plugin" % "3.0.10")
 
 addSbtPlugin("org.scoverage" % "sbt-scoverage" % "2.3.0")
 
-addSbtPlugin("io.github.irundaia" % "sbt-sassify" % "1.5.2")
+addSbtPlugin("uk.gov.hmrc" % "sbt-sass-compiler" % "0.13.0")
 
 addSbtPlugin("org.scalameta" %% "sbt-scalafmt" % "2.5.2")

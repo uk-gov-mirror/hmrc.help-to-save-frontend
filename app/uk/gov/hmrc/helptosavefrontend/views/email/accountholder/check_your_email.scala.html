@@ -26,23 +26,14 @@
 
 @(email: String, emailResent: Boolean)(implicit htsContext: HtsContext, request: Request[_], messages: Messages, frontendAppConfig: FrontendAppConfig)
 
-@beforeContentBlock = {
-    @viewHelpers.govukBreadcrumbs(Breadcrumbs(
-        items = Seq(
-        BreadcrumbsItem(
-        content = Text(messages("hts.global.breadcrumb.account.home")),
-        href = Some(frontendAppConfig.nsiManageAccountUrl)
-        ))
-    ))
-}
+
 
 @title = @{
   Messages("hts.email-verification.existing-user.check-your-email.title.h1")
 }
 
 @layout(
-  title = title  + " " + Messages("hts.global.title.section.email"),
-        beforeContent = Some(beforeContentBlock)) {
+  title = title  + " " + Messages("hts.global.title.section.email")) {
 
     <h1 class="govuk-heading-l">@title</h1>
     <p class="govuk-body">@Html(Messages("hts.email-verification.existing-user.check-your-email.we-have-sent-mail", email, routes.AccountHolderController.getUpdateYourEmailAddress.url))</p>
