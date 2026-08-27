@@ -563,7 +563,7 @@ hts.explained.p9 = To start saving, apply today for Help to Save.
 
 # Savings reminders
 hts.email-saving-remainders.title.h1=Email savings reminders
-hts.email-saving-remainders.intro=Email reminders help you remember to save each month. This helps you earn the highest possible bonus.
+hts.email-saving-remainders.intro=We''ll use this email address for your Help to Save account
 hts.email-saving-remainders.note=Currently, you are not receiving any reminders.
 hts.email-saving-remainders-button=Set up reminders
 hts.reminder-frequency.select=Select when you want to receive reminders
