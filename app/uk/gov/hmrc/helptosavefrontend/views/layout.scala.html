@@ -45,7 +45,7 @@
 
 @serviceUrl = @{
   if(request.path.contains("/account")){
-    Some(s"${appConfig.helpToSaveFrontendUrl}/account-home")
+    Some(s"${appConfig.nsiManageAccountUrl}")
   } else {
     Some(s"${appConfig.helpToSaveFrontendUrl}/check-eligibility")
   }
